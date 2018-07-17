@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/color_nav_content"
+    android:layout_height="200dp">
+    <ImageView
+        android:background="@drawable/custom_img"
+        android:layout_marginTop="23dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img_nav_drawer"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/txt_account_nav"
+        android:text="Account: dragontoon"
+        android:textColor="@color/color_white"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img_nav_drawer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_email_nav"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/color_white"
+        android:layout_below="@id/txt_account_nav"
+        android:layout_centerHorizontal="true"
+        android:text="Email: dragontoon9@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
